@@ -22,8 +22,8 @@ body {
   margin: 0 auto;
 }
 img {
-  width: 120px;
-  height: 120px;
+  width: 26%;
+  height: 26%;
   border-radius: 20%;
   padding: 1px;
   background-color: #666;
@@ -40,12 +40,13 @@ img:hover {
   box-shadow: hsla(240, 100%, 85%, .8) 10px 10px 80px;
 }
 .profile-image {
-  margin-top: -60px;
+  margin-top: -12.5%;
 }
 
 /* Pozicionálás */
 .profile-card {
-  width: 480px;
+  width: 35.139%;
+  height: 70%;
   max-width: calc(100vw - 10px);
 }
 /* Contact links */
@@ -56,11 +57,13 @@ ul {
 
 li {
   display: inline;
-}.head, .about {
-  margin-bottom: 10%;
+}
+.head, .about {
+  margin-bottom: 0.732%;
 }
 a {
-  color: #5200cc;
+  color: #00004d;
+  font-size: 1.5625rem;
 }
 p {
   font-family: "Comic Sans MS", cursive, sans-serif;
