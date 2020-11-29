@@ -16,6 +16,7 @@ body {
 }
 .head, .links {
   text-align: center;
+  font-size: 1rem;
 }
 .head, .content {
   width: 90%;
@@ -71,6 +72,5 @@ p {
 }
 .content {
   border-top: 1px solid hsla(0, 0%, 30%, .8);
-}
-  padding: 5% 10%;
+  font-size: 1rem;
 }
