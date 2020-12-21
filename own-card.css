@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Single-direction margin declaration to establish vertical rhythm. */
+h1,h2,h3,
+ul,ol,
+p,
+img {
+    margin-bottom: .5rem;
+}
+
 /* CSS reset */
 
 * {
@@ -16,15 +28,15 @@ body {
 }
 .head, .links {
   text-align: center;
-  font-size: 1rem;
 }
 .head, .content {
-  width: 90%;
+  width: 85%;
+  height: auto;
   margin: 0 auto;
 }
 img {
-  width: 26%;
-  height: 26%;
+  width: 30%;
+  height: 30%;
   border-radius: 20%;
   padding: 1px;
   background-color: #666;
@@ -41,13 +53,14 @@ img:hover {
   box-shadow: hsla(240, 100%, 85%, .8) 10px 10px 80px;
 }
 .profile-image {
-  margin-top: -12.5%;
+  margin-top: -10%;
 }
 
 /* Pozicionálás */
+
 .profile-card {
   width: 35.139%;
-  height: 70%;
+  height: 75%;
   max-width: calc(100vw - 10px);
 }
 /* Contact links */
@@ -60,17 +73,18 @@ li {
   display: inline;
 }
 .head, .about {
-  margin-bottom: 0.732%;
+  margin-bottom: 2%;
 }
 a {
   color: #00004d;
-  font-size: 1.5625rem;
+  font-size: 2.25rem;
+}
+a:hover {
+  color: #ccccff;
 }
 p {
   font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 1rem;
 }
 .content {
   border-top: 1px solid hsla(0, 0%, 30%, .8);
-  font-size: 1rem;
 }
